@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header {
+    background-color: #232f3e;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+header .logo h1 {
+    margin: 0;
+}
+header .search-bar {
+    flex-grow: 1;
+    margin: 0 20px;
+}
+header .search-bar input {
+    width: 70%;
+    padding: 10px;
+}
+header .search-bar button {
+    padding: 10px 20px;
+    background-color: #febd69;
+    border: none;
+    cursor: pointer;
+}
+header .user-cart button {
+    padding: 10px 20px;
+    background-color: #febd69;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+nav {
+    background-color: #131a22;
+    color: white;
+    padding: 10px;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+main {
+    padding: 20px;
+}
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.product-item {
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    width: calc(33% - 40px);
+    box-sizing: border-box;
+    text-align: center;
+}
+.product-item img {
+    width: 100%;
+    height: auto;
+}
+footer {
+    background-color: #232f3e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
